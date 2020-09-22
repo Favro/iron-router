@@ -10,7 +10,7 @@ Npm.depends({
 });
 
 Package.on_use(function (api) {
-  api.versionsFrom('METEOR@0.9.2');
+  api.versionsFrom('METEOR@1.10.2');
   // meteor dependencies
   api.use('underscore');
   api.use('webapp', 'server');
@@ -65,6 +65,8 @@ Package.on_use(function (api) {
 });
 
 Package.on_test(function (api) {
+  api.versionsFrom('METEOR@1.10.2');
+
   api.use('iron:router');
   api.use('tinytest');
   api.use('test-helpers');
