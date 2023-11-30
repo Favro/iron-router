@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Npm.depends({
-  'body-parser': '1.12.4'
+  'body-parser': '1.20.2'
 });
 
 Package.onUse(function (api) {
