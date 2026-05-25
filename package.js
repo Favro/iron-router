@@ -14,7 +14,7 @@ Package.onUse(function (api) {
   // meteor dependencies
   api.use('underscore');
   api.use('webapp', 'server');
-  api.use('deps', 'client');
+  api.use('tracker', 'client');
   api.use('ui');
   api.use('templating');
 
