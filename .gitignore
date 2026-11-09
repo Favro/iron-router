@@ -1,5 +1,7 @@
 .DS_Store
-.npm
+.npm/**/node_modules
+.npm/**/*-new-*/
+.npm/**/.*-garbage-*/
 .build*
 smart.lock
 versions.json
