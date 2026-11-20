@@ -2,6 +2,6 @@
   "name": "iron-router",
   "private": true,
   "dependencies": {
-    "body-parser": "2.2.2"
+    "body-parser": "2.4.0"
   }
 }
